@@ -1,10 +1,12 @@
+/* global $, editor_api */
+
 $(function () {
   $("#edtAlias").after(
-    "<a href='javascript:;' onclick='fnAutoAlias();'> [生成别名]</a>"
+    "<a href='javascript:;' onclick='fnAutoAlias();'> 「生成别名」</a>",
   );
   if ($(".edt-more").length == 0) {
     $("#msg").after(
-      '<a href="javascript:;" data-plugin="mz_AutoAlias" title="插入摘要分隔符" onclick="fnEdtMore();" class="edt-more">[摘要分隔]</a>'
+      "<a href=\"javascript:;\" data-plugin=\"mz_AutoAlias\" title=\"插入摘要分隔符\" onclick=\"fnEdtMore();\" class=\"edt-more\">「摘要分隔」</a>",
     );
   }
 });
@@ -15,7 +17,7 @@ function fnEdtMore() {
   if (typeof window.EDITORMD == "object") {
     strMore = "xn<!--more-->xf";
   } else {
-    strMore = '<hr class="more" />';
+    strMore = "<hr class=\"more\" />";
   }
   editor_api.editor.content.insert(strMore);
   let oBody = editor_api.editor.content.get();
