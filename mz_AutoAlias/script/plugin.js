@@ -1,5 +1,3 @@
-/* global $, editor_api */
-
 $(function () {
   $("#edtAlias").after(
     "<a href='javascript:;' onclick='fnAutoAlias();'> 「生成别名」</a>",
@@ -12,6 +10,7 @@ $(function () {
 });
 
 // 自动插入摘要分隔符
+// eslint-disable-next-line no-unused-vars
 function fnEdtMore() {
   let strMore = "";
   if (typeof window.EDITORMD == "object") {
