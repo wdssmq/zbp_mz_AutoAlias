@@ -1,4 +1,4 @@
-$(function () {
+$(function() {
   $("#edtAlias").after(
     "<a href='javascript:;' onclick='fnAutoAlias();'> 「生成别名」</a>",
   );
@@ -27,10 +27,10 @@ function fnEdtMore() {
 
 // localStorage 封装
 const lsObj = {
-  setItem: function (key, value) {
+  setItem: function(key, value) {
     localStorage.setItem(key, JSON.stringify(value));
   },
-  getItem: function (key, def = "") {
+  getItem: function(key, def = "") {
     const item = localStorage.getItem(key);
     if (item) {
       return JSON.parse(item);
