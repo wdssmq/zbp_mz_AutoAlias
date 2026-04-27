@@ -9,8 +9,12 @@ function ActivePlugin_mz_AutoAlias()
 }
 function mz_AutoAlias_SetCSS()
 {
+  global $zbp;
   $act = GetVars('act', 'GET');
   if ("ArticleEdt" !== $act) {
+    return;
+  }
+  if ($zbp->CheckPlugin('mz_admin2')) {
     return;
   }
   echo '<link rel="stylesheet" href="' . mz_AutoAlias_Path("css", "host") . '">';
@@ -34,12 +38,12 @@ function mz_AutoAlias_Path($file, $t = 'path')
     case 'script':
       return $result . 'script/plugin.js';
       break;
-      // case 'usr':
-      //     return $result . 'usr/';
-      //     break;
-      // case 'var':
-      //     return $result . 'var/';
-      //     break;
+    // case 'usr':
+    //     return $result . 'usr/';
+    //     break;
+    // case 'var':
+    //     return $result . 'var/';
+    //     break;
     case 'main':
       return $result . 'main.php';
       break;
@@ -47,9 +51,5 @@ function mz_AutoAlias_Path($file, $t = 'path')
       return $result . $file;
   }
 }
-function InstallPlugin_mz_AutoAlias()
-{
-}
-function UninstallPlugin_mz_AutoAlias()
-{
-}
+function InstallPlugin_mz_AutoAlias() {}
+function UninstallPlugin_mz_AutoAlias() {}

@@ -87,6 +87,8 @@ function fnMove() {
   $("#tags,#ulTag").appendTo("#divEditTitle").removeClass("editmod2");
 }
 
+if (window.__ADMIN_JS_CONFIG_URL__ === undefined) {
+  fnMove();
+}
 // 自动执行
-fnMove();
 fnAutoAlias();
