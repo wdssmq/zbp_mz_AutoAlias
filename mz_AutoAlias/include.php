@@ -17,7 +17,7 @@ function mz_AutoAlias_SetCSS()
   if ($zbp->CheckPlugin('mz_admin2')) {
     return;
   }
-  echo '<link rel="stylesheet" href="' . mz_AutoAlias_Path("css", "host") . '">';
+  echo '<link rel="stylesheet" href="' . mz_AutoAlias_Path("css", "host") . '?v=2026-04-27">';
 }
 function mz_AutoAlias_SetJS()
 {
@@ -25,7 +25,7 @@ function mz_AutoAlias_SetJS()
   if ("ArticleEdt" !== $act) {
     return;
   }
-  echo '<script src="' . mz_AutoAlias_Path("script", "host") . '"></script>';
+  echo '<script src="' . mz_AutoAlias_Path("script", "host") . '?v=2026-04-27"></script>';
 }
 function mz_AutoAlias_Path($file, $t = 'path')
 {
