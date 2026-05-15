@@ -1,6 +1,6 @@
 ## 投喂支持
 
-爱发电：[https://afdian.net/a/wdssmq](https://afdian.net/a/wdssmq "沉冰浮水正在创作和 z-blog 相关或无关的各种有用或没用的代码 | 爱发电")
+爱发电：[https://afdian.com/a/wdssmq](https://afdian.com/a/wdssmq "沉冰浮水正在创作和 z-blog 相关或无关的各种有用或没用的代码 | 爱发电")
 
 哔哩哔哩：[https://space.bilibili.com/44744006](https://space.bilibili.com/44744006 "沉冰浮水的个人空间\_哔哩哔哩\_bilibili")「投币或充电」「[大会员卡券领取 - bilibili](https://account.bilibili.com/account/big/myPackage "大会员卡券领取 - bilibili")」
 
@@ -22,7 +22,7 @@ RSS 订阅：[https://feed.wdssmq.com](https://feed.wdssmq.com "沉冰浮水博�
 
 \-----
 
-Input小助手（自动排版） - Z-Blog 应用中心
+Input 小助手（自动排版） - Z-Blog 应用中心
 
 [https://app.zblogcn.com/?id=474](<https://app.zblogcn.com/?id=474> "Input小助手（自动排版） - Z-Blog 应用中心")
 
